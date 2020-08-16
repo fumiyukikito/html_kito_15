@@ -1,0 +1,816 @@
+/* ここから下に記載していく */
+header{
+    height: 100px;
+    top: 300px;
+    background-color:#fff;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+   font-size: 16px;
+   font-family: sans-serif;
+   color:#222222;
+  }
+
+  ul {
+    　　overflow:hidden;
+    　　list-style:none;
+    　　margin: 0 auto;
+    　　z-index: 20;
+    }
+     
+    ul li {
+      display: inline-block;
+      margin: auto 25px auto 25px;
+      text-align: center;
+      line-height: 100px;
+    }
+  
+
+.logo_1{
+ float: left;
+}
+
+.boxmain{
+  width: 1200px;
+  height: 500px;
+  background-image: url(../img/mainbg.png);
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.boxmain_title_1{
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.boxmain_title_2{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom:200px;
+}
+
+.about{
+  background: #fafafa;
+  border: #cacaca;
+}
+
+.about_title{
+  color: #ffd900e8;
+  font: bold;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom:30px;
+
+}
+
+.about_1{
+  color:#222222;
+  font-size:18px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom:60px;
+}
+
+.about_2{
+  color:#222222;
+  font-size:16px;
+  text-align: center;
+  padding-bottom:40px;
+}
+
+.about_3{
+  color:#222222;
+  font-size:16px;
+  text-align: center;
+  padding-bottom:40px;
+}
+.about_4{
+  color:#222222;
+  font-size:16px;
+  text-align: center;
+  padding-bottom:40px;
+}
+.about_5{
+  color:#222222;
+  font-size:16px;
+  text-align: center;
+  padding-bottom:40px;
+}
+
+.box_about_left{
+  width: 385px;
+  height: 255px;
+  background-image: url(../img/about_01.jpg);
+  margin-left: 0px;
+  margin-right: auto;
+ 
+}
+
+.box_about{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.box_about_left{
+  width: 300px;
+  height: 255px;
+  background-image: url(../img/about_01.jpg);
+  margin: 0;}
+
+.box_about_center_left{
+  width: 300px;
+  height: 255px;
+  background-image: url(../img/about_02.jpg);
+  margin: 0;
+}
+
+  .box_about_center_right{
+    width: 300px;
+    height: 255px;
+    background-image: url(../img/about_03.jpg);
+    margin: 0;
+  }
+
+  .box_about_right{
+      width: 300px;
+      height: 255px;
+      background-image: url(../img/about_04.jpg);
+      margin: 0;
+    }
+
+.course_title{
+  color: #222222;
+  font: bold;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom:30px;
+}
+
+.course_1
+{color: #222222;
+font-size: 16px;
+text-align: center;
+padding-bottom:60px;
+}
+
+.course_box1{
+  display: flex;
+  justify-content: center;
+}
+
+.course_box1_left
+{
+  width: 600px;
+  height: 400px;
+  background-image: url(../img/course_01.jpg);
+}
+
+.course_box1_right{
+  width: 600px;
+  height: 400px;
+  background: #fafafa;
+  border: #cacaca;
+ 
+}
+
+.course_box1_right_text1{
+  color: #222222;
+  font: bold;
+ font-size: 24px;
+ text-align: center;
+padding-top:120px;
+}
+
+.course_box1_right_text2{
+  color: #222222;
+ font-size: 18px;
+padding:40px 0px 120px 50px;
+text-align: left;
+}
+
+/* 双方のボックスを等間隔で開けるみたいなスタイルはどう書けばいいのか */
+/* 折り返しの480pxが反映できていない */
+
+.course_box2
+{
+  display: flex;
+  justify-content: center;
+}
+
+.course_box2_right{
+  width: 600px;
+  height: 400px;
+  background-image: url(../img/course_02.jpg);
+}
+
+.course_box2_left{
+  width: 600px;
+  height: 400px;
+  background: #fafafa;
+  border: #cacaca;
+}
+
+.course_box2_left_text1{
+  color: #222222;
+  font: bold;
+ font-size: 24px;
+ text-align: center;
+padding-top:120px;
+}
+
+.course_box2_left_text2{
+  color: #222222;
+ font-size: 18px;
+padding:40px 0px 120px 50px;
+text-align: left;  
+}
+
+.course_box3{
+  display: flex;
+  justify-content: center;
+}
+
+.course_box3_left
+{
+  width: 600px;
+  height: 400px;
+  background-image: url(../img/course_03.jpg);
+}
+
+.course_box3_right{
+  width: 600px;
+  height: 400px;
+  background: #fafafa;
+  border: #cacaca;
+}
+
+.course_box3_right_text1{
+  color: #222222;
+  font: bold;
+ font-size: 24px;
+padding-top:120px;
+text-align: center;
+ }
+
+.course_box3_right_text2{
+  color: #222222;
+ font-size: 18px;
+ text-align: left;
+ padding:40px 0px 120px 50px;
+}
+
+.news_title{
+  color: #ffd900e8;
+  font: bold;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom:30px;
+
+}
+
+.news_1{
+  color:#222222;
+  font-size:18px;
+  text-align: center;
+  padding-bottom:60px;
+}
+
+/* paddingbotomとtopは両方のシートで必要か？ */
+
+.box_news{
+  display: flex;
+justify-content: center;
+padding-bottom: 60px;
+}
+
+.box_news1
+{  width: 300px;
+  height: 260px;
+  padding: 0px 30px 60px 0;
+}
+
+.box_news1_image
+{  width: 300px;
+  height: 200px;
+  background-image: url(../img/news_img.jpg);
+}
+
+.box_news1_text1{
+  color:#222222;
+  font-size:18px;
+  text-align: center;
+  padding-top:30px;
+  padding-bottom:24px;
+}
+
+.box_news1_text2{
+  color:#222222;
+  font-size:14px;
+  text-align: center;
+}
+
+.box_news2
+{  width: 300px;
+  height: 260px;
+  padding: 0px 30px 60px 0px;
+}
+
+
+.box_news2_image
+{  width: 300px;
+  height: 200px;
+  background-image: url(../img/news_img.jpg);
+}
+
+.box_news2_text1{
+  color:#222222;
+  font-size:18px;
+  text-align: center;
+  padding-top:30px;
+  padding-bottom:24px;
+}
+
+.box_news2_text2{
+  color:#222222;
+  font-size:14px;
+  text-align: center;
+}
+
+.box_news3
+{  width: 300px;
+  height: 260px;
+  padding: 0px 0px 60px 0px;}
+
+.box_news3_image
+{  width: 300px;
+  height: 200px;
+  background-image: url(../img/news_img.jpg);
+}
+
+.box_news3_text1{
+  color:#222222;
+  font-size:18px;
+  text-align: center;
+  padding-top:30px;
+  padding-bottom:24px;
+}
+
+.box_news3_text2{
+  color:#222222;
+  font-size:14px;
+  text-align: center;
+}
+
+.more_box{
+  background: #ffd61a;
+  width: 300px;
+  height: 60px;
+ margin-left:auto;
+ margin-right:auto;
+  }
+
+  .more_text{
+    color:#fff;
+    font-size: 24px;
+  text-align: center;
+  line-height: 60px;
+  }
+
+ 
+.access_box{
+  background: #fafafa;
+  width: 1200px;
+  height: 200px;
+ text-align: center;
+ margin-top:60px;
+ margin-left: auto;
+ margin-right: auto;
+ }
+
+ .access_title{
+  padding-top: 60px;
+}
+
+ .access_title2{
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.map
+{ text-align: center;}
+
+.school_box
+{ width: 1365px;
+  height: 270px;
+  background: #fafafa;
+  text-align: center;
+ margin-left:auto;
+ margin-right:auto;
+ color:#222222;
+  font-size: 18px;
+}
+
+.school_colum{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 60p;
+}
+
+.school_left_colum
+{width: 200px;
+height: 300px; 
+text-align: left;
+padding-top: 60px;
+line-height:30px;
+}
+
+.school_right_colum
+{
+  width: 500px;
+  height: 300px; 
+  text-align: left;
+  padding-top: 60px;
+  line-height:30px;
+}
+  
+.school_right_colum
+{
+  width: 500px;
+  height: 300px; 
+  text-align: left;
+  padding-top: 60px;
+  line-height:30px;
+}
+/* 下の文字の60を指定できない */
+
+.contact_title{
+  text-align: center;
+  color:black;
+  font-size: 24px; 
+  font:bold;
+  padding-top: 60px;
+}
+
+.contact_text_1{
+text-align: center;
+  color:black;
+  font-size: 18px; 
+  padding-top:30px;
+}
+.contact_text_2{
+  text-align: center;
+  color:black;
+  font-size: 18px; 
+  padding-top:60px;
+}
+.contact_text_3{
+  text-align: center;
+  color:black;
+  font-size: 18px; 
+  padding-top:30px;
+}
+
+.info-area{  
+  margin-top: 70px;
+}
+
+.info_box1{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.info_box_title_1 {
+  width: 240px;
+  height: 60px;
+  /* 枠線を太さ1pxで表示 */
+  border: 1px solid;
+  border-color: #bfbfbf;
+  border-left: transparent; /* 左辺を透明に */
+  vertical-align: middle; /* 「vertical-align」を指定してもテキストは縦方向中央揃いにならない */
+}
+
+.info_box_form_1
+{
+  width: 400px;
+  height: 60px;
+  /* 枠線を太さ1pxで表示 */
+
+  border: 1px solid;
+  border-color: #bfbfbf;
+  border-right: transparent; /* 右辺を透明に */
+  text-align: left;
+}
+.info_box_title_text_1
+{
+  line-height: 60px; 
+  padding-left: 16px;
+  text-align: left;
+
+}
+
+.info_box_form_content_1 input[type='text']
+{width: 100%;
+  max-width: 328px;
+  height: 36px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* info2 */
+
+.info_box2{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.info_box_title_2 {
+  width: 240px;
+  height: 60px;
+  /* 枠線を太さ1pxで表示 */
+  border: 1px solid;
+  border-color: #bfbfbf;
+  border-left: transparent; /* 左辺を透明に */
+  vertical-align: middle; /* 「vertical-align」を指定してもテキストは縦方向中央揃いにならない */
+}
+
+.info_box_form_2
+{
+  width: 400px;
+  height: 60px;
+  /* 枠線を太さ1pxで表示 */
+
+  border: 1px solid;
+  border-color: #bfbfbf;
+  border-right: transparent; /* 右辺を透明に */
+  text-align: left;
+}
+.info_box_title_text_2
+{
+  line-height: 60px; 
+  padding-left: 16px;
+  text-align: left;
+
+}
+
+.info_box_form_content_2 input[type='text']
+{width: 100%;
+  max-width: 328px;
+  height: 36px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* info3 */
+
+.info_box3{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.info_box_title_3 {
+  width: 240px;
+  height: 60px;
+  /* 枠線を太さ1pxで表示 */
+  border: 1px solid;
+  border-color: #bfbfbf;
+  border-left: transparent; /* 左辺を透明に */
+  vertical-align: middle; /* 「vertical-align」を指定してもテキストは縦方向中央揃いにならない */
+}
+
+.info_box_form_3
+{
+  width: 400px;
+  height: 60px;
+  /* 枠線を太さ1pxで表示 */
+
+  border: 1px solid;
+  border-color: #bfbfbf;
+  border-right: transparent; /* 右辺を透明に */
+  text-align: left;
+}
+.info_box_title_text_3
+{
+  line-height: 60px; 
+  padding-left: 16px;
+  text-align: left;
+
+}
+
+.info_box_form_content_3 input[type='text']
+{width: 100%;
+  max-width: 328px;
+  height: 36px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* info4 */
+
+.info_box4{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.info_box_title_4 {
+  width: 240px;
+  height: 80px;
+  /* 枠線を太さ1pxで表示 */
+  border: 1px solid;
+  border-color: #bfbfbf;
+  border-left: transparent; /* 左辺を透明に */
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+}
+
+.info_box_form_4
+{
+  width: 400px;
+  height: 80px;
+  /* 枠線を太さ1pxで表示 */
+
+  border: 1px solid;
+  border-color: #bfbfbf;
+  border-right: transparent; /* 右辺を透明に */
+  text-align: left;
+}
+.info_box_title_text_4
+{ position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: left;
+  padding-left: 16px;
+}
+
+/* 文字を２行に持っていけない。参照にした。
+　　https://saruwakakun.com/html-css/basic/centering#section2 */
+
+
+/* info 4 セレクトボックス　https://webkore.site/css-form-customize/ */
+
+.info_box_form_select {
+  position: relative;
+  width: 100%;
+  max-width: 328px;
+  height: 36px;
+  margin: 20px auto 20px 8px;
+  border: 1px solid #bfbfbf;
+  justify-content: center;
+}
+
+/* 余白をちょうど真ん中に持っていく方法とは？maginで制御してもボックスの幅があるので、ブロック自体のheightを規制しないといけない。 */
+
+.info_box_form_select:before {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%) translateX(0);
+  content: '';
+  width: 15px;
+  height: 15px;
+  background: url(../img/select.png) no-repeat;
+  background-size: contain;
+}
+
+.info_box_form_select select{
+  width: 100%;
+  outline:none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 40px;
+  padding: 5px;
+  border:1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.info_box_form_select select::-ms-expand {
+  display: none;
+}
+
+
+/* info5 */
+
+.info_box5{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+
+
+.info_box_title_5
+{
+  width: 240px;
+height: 200px;
+/* 枠線を太さ1pxで表示 */
+  border: 1px solid;
+border-color: #bfbfbf;
+border-left: transparent; /* 左辺を透明に */
+vertical-align: middle; /* 「vertical-align」を指定してもテキストは縦方向中央揃いにならない */
+margin-bottom: 30px;}
+.info_box_form_5
+{
+width: 400px;
+height: 200px;
+/* 枠線を太さ1pxで表示 */
+
+border: 1px solid;
+border-color: #bfbfbf;
+border-right: transparent; /* 右辺を透明に */
+display: flex;
+align-items: center;     /*上下中央揃え*/
+
+/* https://qiita.com/HiromuMasuda0228/items/6a51c2ce24c69c937092これを参照した */
+
+margin-bottom: 30px;
+text-align: left;
+
+}
+.info_box_title_text_5
+{
+line-height: 200px; 
+padding-left: 8px;
+justify-content: center;
+}
+
+.checkbox-wrap label{
+  margin-left: 8px;
+  display: block; 
+  line-height: 24px;
+  text-align: left;
+}
+
+.checkbox-wrap input + span{
+  position:relative;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.checkbox-wrap input:checked + span{
+  color: #487cff;
+  font-weight: bold;
+}
+
+input[type='submit']{
+ 
+  height: 60px;
+  border: none;
+  display: block;
+  width: 100%;
+  max-width: 328px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #ffd61a;
+  color: #fff;
+  font-weight: bold;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  margin-top: 30;
+  margin-right: auto;
+  margin-bottom: 140;
+  margin-left: auto;
+}
+
+.footer {
+  margin-top: 140px;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  background-color: #707070;
+  font-size: 16;
+  color: #fff;
+}
